@@ -1,0 +1,5 @@
+{
+  "name": "Global Pulse Clock",
+  "description": "A high-performance World Clock PWA featuring real-time updates for Berlin, New York, and Manila, enhanced with AI-driven city insights.",
+  "requestFramePermissions": []
+}

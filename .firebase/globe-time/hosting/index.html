@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Global Pulse Clock</title>
+    <meta name="description" content="Real-time world clock for Berlin, New York, and Manila." />
+     <meta name="author" content="Helmar Baechle" />
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="World Clock" />
+
+    <!-- Icons (Placeholder for PWA compliance) -->
+    <link rel="icon" type="image/jpg" href="https://picsum.photos/192/192" />
+    <link rel="apple-touch-icon" href="https://picsum.photos/192/192" />
+    
+
+<meta property="og:type" content="website" />
+    <meta property="og:title" content="Real-time world clock for Berlin, New York, and Manila." />
+    <meta property="og:description" content="World Clock" />
+    <meta property="og:image" content="https://globe-time.web.app/time.jpg" />
+    <meta property="og:url" content="https://globe-time.web.app/" />
+
+    <meta name="twitter:card" content="summary_large_image" /> <meta name="twitter:title" content="World Clock" />
+    <meta name="twitter:description" content="Real-time world clock for Berlin, New York, and Manila." />
+    <meta name="twitter:image" content="https://globe-time.web.app/time.jpg" />
+    <meta name="twitter:url" content="https://globe-time.web.app/" />
+
+    <!-- Manifest -->
+    <link rel="manifest" href="./manifest.json" />
+
+    <!-- Tailwind CSS -->
+   
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              slate: {
+                850: '#151f32',
+                900: '#0f172a',
+                950: '#020617',
+              },
+              primary: {
+                500: '#3b82f6',
+                600: '#2563eb',
+              }
+            },
+            animation: {
+              'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            }
+          },
+        },
+      }
+    </script>
+
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N8YXTZLL9L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N8YXTZLL9L');
+</script>
+
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "webworker": "https://aistudiocdn.com/webworker@^0.8.4"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-7Kvru-zb.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-gNNb-TYt.css">
+</head>
+  <body class="bg-slate-950 text-white antialiased overflow-x-hidden selection:bg-primary-500 selection:text-white">
+    <div id="root"></div>
+</body>
+</html>
