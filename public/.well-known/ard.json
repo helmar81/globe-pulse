@@ -1,0 +1,12 @@
+{
+  "name": "Global Pulse Clock",
+  "description": "Real-time world clock and weather insights for Berlin, New York, and Manila.",
+  "url": "https://globe-time.web.app/",
+  "version": "1.0.0",
+  "resources": [
+    {
+      "type": "llms-txt",
+      "url": "https://globe-time.web.app/llms.txt"
+    }
+  ]
+}

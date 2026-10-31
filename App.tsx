@@ -28,7 +28,7 @@ const App: React.FC = () => {
              <h2 className="text-3xl sm:text-4xl font-black text-white mb-2">World Time</h2>
              <p className="text-slate-400 max-w-2xl">
                Real-time synchronization across three major global hubs. 
-               AI-enhanced insights available on demand.
+               AI-enhanced insights available on demand. Real-time weather observations and short-term forecasts per hub.
              </p>
           </div>
 
@@ -48,12 +48,12 @@ const App: React.FC = () => {
                 href="https://uspekhi.web.app" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="hover:underline text-blue-600 hover:text-blue-700"
+                className="hover:underline text-blue-200 hover:text-blue-300"
               >
                 <strong>USPEKHI</strong>
               </a>
               <br />
-              <a href="/privacy-policy.html" target="_blank" rel="noopener noreferrer" className="hover:underline text-blue-600">
+              <a href="/privacy-policy.html" target="_blank" rel="noopener noreferrer" className="hover:underline text-blue-200 hover:text-blue-300">
                 Privacy Policy
               </a>
 

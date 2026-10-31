@@ -1,0 +1,16 @@
+# Global Pulse Clock
+> Real-time time synchronization across major global hubs with on-demand AI-enhanced weather and time insights.
+
+Global Pulse Clock provides live, accurate world time tracking and weather forecasts focused on key international cities including Berlin, New York, and Manila.
+
+## Core Features
+- Live World Time: High-precision time synchronization across multiple global time zones.
+- Integrated Weather: Real-time weather observations and short-term forecasts per hub.
+- AI Insights: On-demand AI-generated summary reports and time zone context.
+
+## Primary Routes
+- [Live Dashboard](https://globe-time.web.app/)
+- [Web App Manifest](https://globe-time.web.app/manifest.json)
+
+## Optional Resources
+- [Full LLM Specification](https://globe-time.web.app/llms-full.txt)
